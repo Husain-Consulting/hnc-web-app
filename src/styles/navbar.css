@@ -1,0 +1,32 @@
+.navbar-content{
+    height: 64px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 60px;
+    padding-right: 60px;
+    position: sticky;
+}
+
+.logo img{
+    width: 130px;
+    height: 46px;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+}
+
+ul li{
+    padding: 12px;
+    margin: 12px;
+    color: #858585;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+ul li :hover{
+    color: #F87000;
+}

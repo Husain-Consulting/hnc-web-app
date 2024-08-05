@@ -1,0 +1,23 @@
+.services-main {
+  height: 100vh;
+  background-color: white;
+  padding-top: 45px;
+}
+
+.services-heading {
+  color: #f87000;
+  font-size: 24px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-left: 110px;
+}
+
+.services-heading hr {
+  flex-grow: 0.9;
+  border: none;
+  height: 1px;
+  background-color: #858585;
+  opacity: 50%;
+}
