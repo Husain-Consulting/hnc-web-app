@@ -1,4 +1,5 @@
 import about from "@/styles/about.css";
+import { aboutText } from "./Text";
 
 export default function About() {
   return (
@@ -9,15 +10,10 @@ export default function About() {
         </div>
         <div className="about-txt">
           <div className="about-heading">
-            <span>KNOW MORE</span>
+            <span>{aboutText.aboutHeading}</span>
             <hr />
           </div>
-          <p>
-            Empowering businesses through innovative digital solutions. Crafting
-            stunning websites, intuitive mobile apps, and robust custom
-            software. Experts in driving growth and success with cutting-edge
-            technology and user-centric designs.
-          </p>
+          <p>{aboutText.about}</p>
         </div>
       </div>
 
@@ -38,7 +34,7 @@ export default function About() {
         
         <div className="description">
             <p>
-            <span>Our purpose</span> is to empower businesses by harnessing the transformative power of innovative digital solutions. We are dedicated to crafting stunning websites, intuitive mobile apps, and robust custom software that not only captivate users but also drive growth and success. Our team of experts combines cutting-edge technology with user-centric designs, ensuring that every digital experience we create is tailored to meet the unique needs of our clients. We are committed to pushing boundaries and delivering solutions that elevate businesses, enabling them to thrive in the ever-evolving digital landscape.
+            <span>Our purpose</span> {aboutText.aboutdescription}
             </p>
         </div>
 
