@@ -9,7 +9,7 @@ export default function Home() {
         <h1>{homeText.heroText}</h1>
       </div>       
       <Image
-        src="/Images/HeroScreen.jpg"
+        src="/Images/HeroImg.svg"
         alt="Hero Banner"
         fill
         style={{objectFit: 'cover'}}
