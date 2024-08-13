@@ -6,7 +6,7 @@ export default function Home() {
   return(
     <div className="hero-screen">
       <div className="hero-content">
-        <h1>{homeText.COMPANY_PROFILE_DATA}</h1>
+        <h1>{homeText.HOME_PAGE_TEXT}</h1>
       </div>       
       <Image
         src="/Images/HeroScreen.svg"

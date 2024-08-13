@@ -1,9 +1,9 @@
 export const homeText = {
-    COMPANY_PROFILE_DATA: "Code . Craft . Captivate",
+    HOME_PAGE_TEXT: "Code . Craft . Captivate",
   };
   
   export const aboutText = {
-    HEADING: "KNOW MORE",
+      HEADING: "KNOW MORE",
       DESCRIPTION:
       "Empowering businesses through innovative digital solutions. Crafting stunning websites, intuitive mobile apps, and robust custom         software. Experts in driving growth and success with cutting-edge technology and user-centric designs.",
       SMALL_DESCRIPTION:
