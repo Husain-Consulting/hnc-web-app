@@ -1,14 +1,15 @@
 import Image from "next/image";
 import "@/styles/home.css";
+import { homeText } from "@/Utils/Constants";
 
 export default function Home() {
   return(
     <div className="hero-screen">
       <div className="hero-content">
-        <h1>Code . Craft . Captivate</h1>
+        <h1>{homeText.HOME_PAGE_TEXT}</h1>
       </div>       
       <Image
-        src="/Images/HeroScreen.jpg"
+        src="/Images/HeroScreen.svg"
         alt="Hero Banner"
         fill
         style={{objectFit: 'cover'}}
