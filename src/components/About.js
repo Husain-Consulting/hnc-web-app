@@ -1,12 +1,12 @@
-import about from "@/styles/about.css";
-import { aboutText } from "@/Utils/Constants";
+import "@/styles/about.css";
+import { aboutText } from "@/utils/constants";
 
 export default function About() {
   return (
     <div className="about-main">
       <div className="about-upper">
         <div className="about-logo">
-          <img src="/Images/HNC-Logo.svg" alt="logo" />
+          <img src="/media/logo/logo.svg" alt="logo" />
         </div>
         <div className="about-txt">
           <div className="about-heading">
@@ -16,28 +16,27 @@ export default function About() {
           <p>{aboutText.DESCRIPTION}</p>
         </div>
       </div>
-
+      
       <div className="about-down">
         <div className="images">
-            <div className="image-1">
-            <img src="/Images/Image1.svg" alt="image1" />
+          <div className="image-1">
+            <img src="/media/images/image1.svg" alt="image1" />
+          </div>
+          <div className="image-2">
+            <div className="image-up">
+              <img src="/media/images/image2.svg" alt="image2" />
             </div>
-            <div className="image-2">
-                <div className="image-up">
-                <img src="/Images/Image2.svg" alt="image2" />
-                </div>
-                <div className="image-down">
-                <img src="/Images/Image3.svg" alt="image3" />
-                </div>
+            <div className="image-down">
+              <img src="/media/images/image3.svg" alt="image3" />
             </div>
+          </div>
         </div>
         
         <div className="description">
-            <p>
+          <p>
             <span>Our purpose</span> {aboutText.SMALL_DESCRIPTION}
-            </p>
+          </p>
         </div>
-
       </div>
     </div>
   );
