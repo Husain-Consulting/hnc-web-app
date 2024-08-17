@@ -1,6 +1,6 @@
 import Image from "next/image";
 import "@/styles/home.css";
-import { homeText } from "@/Utils/Constants";
+import { homeText } from "@/utils/constants";
 
 export default function Home() {
   return(
@@ -9,7 +9,7 @@ export default function Home() {
         <h1>{homeText.HOME_PAGE_TEXT}</h1>
       </div>       
       <Image
-        src="/Images/HeroScreen.svg"
+        src="/media/images/heroimg.svg"
         alt="Hero Banner"
         fill
         style={{objectFit: 'cover'}}

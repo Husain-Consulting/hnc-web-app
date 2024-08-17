@@ -7,7 +7,7 @@ export default function Navbar() {
     <nav className="navbar">
       <div className="navbar-content">
         <Link href="/" className="logo">
-          <img src="/Images/HNC-Logo.svg" alt="logo" />
+          <img src="/media/logo/logo.svg" alt="logo" />
         </Link>
         <ul>
           <li>
