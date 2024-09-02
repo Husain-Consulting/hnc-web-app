@@ -5,11 +5,11 @@ export const NAVIGATION_ITEMS = [
   },
   {
     text: "About",
-    path: "/about",
+    path: "/aboutPage",
   },
   {
     text: "Services",
-    path: "/services",
+    path: "/servicePage",
   },
   {
     text: "Contact Us",

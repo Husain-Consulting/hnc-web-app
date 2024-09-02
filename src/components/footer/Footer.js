@@ -1,7 +1,7 @@
 import "@/styles/footer.css";
 import "remixicon/fonts/remixicon.css";
 import Link from "next/link";
-import { NAVIGATION_ITEMS, COPYRIGHT_FOOTER_TEXT } from "@/Utils/footerConstants";
+import { NAVIGATION_ITEMS, COPYRIGHT_FOOTER_TEXT } from "@/helper/footerConstants";
 
 export default function Footer() {
   return (
@@ -15,18 +15,6 @@ export default function Footer() {
               {NAVIGATION_ITEMS.map(item => <li>
                 <Link href={item.path}>{item.text}</Link>
               </li>)}
-              {/* <li>
-                <Link href="/">Home</Link>
-              </li>
-              <li>
-                <Link href="/about">About</Link>
-              </li>
-              <li>
-                <Link href="/services">Services</Link>
-              </li>
-              <li>
-                <Link href="/contact">Contact Us</Link>
-              </li> */}
             </ul>
           </nav>
           <div className="social-media">

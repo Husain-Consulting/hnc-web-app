@@ -1,5 +1,5 @@
+import { TEXT_CONSTANTS } from "@/helper/constants";
 import "@/styles/about.css";
-import { TEXT_CONSTANTS } from "@/utils/constants";
 
 export default function About() {
   return (
