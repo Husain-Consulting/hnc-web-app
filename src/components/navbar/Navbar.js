@@ -1,7 +1,7 @@
 import React from "react";
 import Link from "next/link";
 import "@/styles/navbar.css";
-import { NAVIGATION_ITEMS } from "@/helper/footerConstants";
+import { NAVIGATION_ITEMS } from "@/utils/footerConstants";
 
 export default function Navbar() {
   return (

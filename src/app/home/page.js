@@ -1,6 +1,6 @@
 import Image from "next/image";
 import "@/styles/home.css";
-import { HOME_PAGE_TEXT } from "@/helper/constants";
+import { HOME_PAGE_TEXT } from "@/utils/homeConstants";
 
 export default function Home() {
   return(

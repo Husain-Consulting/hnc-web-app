@@ -32,6 +32,10 @@
   gap: 10px;
 }
 
+.about-content {
+  font-size: 14px;
+}
+
 .about-heading hr {
   flex-grow: 0.9;
   border: none;
