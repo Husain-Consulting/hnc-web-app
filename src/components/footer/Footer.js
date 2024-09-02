@@ -1,7 +1,7 @@
 import "@/styles/footer.css";
 import "remixicon/fonts/remixicon.css";
 import Link from "next/link";
-import { NAVIGATION_ITEMS, COPYRIGHT_FOOTER_TEXT } from "@/helper/footerConstants";
+import { NAVIGATION_ITEMS, COPYRIGHT_FOOTER_TEXT } from "@/utils/footerConstants";
 
 export default function Footer() {
   return (

@@ -1,4 +1,4 @@
-import { TEXT_CONSTANTS } from "@/helper/constants";
+import { TEXT_CONSTANTS } from "@/utils/homeConstants";
 import "@/styles/about.css";
 
 export default function About() {
@@ -13,10 +13,10 @@ export default function About() {
             <span>{TEXT_CONSTANTS.HEADING}</span>
             <hr />
           </div>
-          <p>{TEXT_CONSTANTS.DESCRIPTION}</p>
+          <p className="about-content">{TEXT_CONSTANTS.DESCRIPTION}</p>
         </div>
       </div>
-      
+
       <div className="about-down">
         <div className="images">
           <div className="image-1">
@@ -31,9 +31,9 @@ export default function About() {
             </div>
           </div>
         </div>
-        
+
         <div className="description">
-          <p>
+          <p className="about-content">
             <span>Our purpose</span> {TEXT_CONSTANTS.SMALL_DESCRIPTION}
           </p>
         </div>
