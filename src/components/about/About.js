@@ -1,5 +1,5 @@
 import "@/styles/about.css";
-import { aboutText } from "@/utils/constants";
+import { TEXT_CONSTANTS } from "@/helper/constants";
 
 export default function About() {
   return (
@@ -10,10 +10,10 @@ export default function About() {
         </div>
         <div className="about-txt">
           <div className="about-heading">
-            <span>{aboutText.HEADING}</span>
+            <span>{TEXT_CONSTANTS.HEADING}</span>
             <hr />
           </div>
-          <p>{aboutText.DESCRIPTION}</p>
+          <p>{TEXT_CONSTANTS.DESCRIPTION}</p>
         </div>
       </div>
       
@@ -34,7 +34,7 @@ export default function About() {
         
         <div className="description">
           <p>
-            <span>Our purpose</span> {aboutText.SMALL_DESCRIPTION}
+            <span>Our purpose</span> {TEXT_CONSTANTS.SMALL_DESCRIPTION}
           </p>
         </div>
       </div>

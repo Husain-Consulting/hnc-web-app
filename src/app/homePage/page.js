@@ -1,12 +1,12 @@
 import Image from "next/image";
 import "@/styles/home.css";
-import { homeText } from "@/utils/constants";
+import { HOME_PAGE_TEXT } from "@/helper/constants";
 
 export default function Home() {
   return(
     <div className="hero-screen">
       <div className="hero-content">
-        <h1>{homeText.HOME_PAGE_TEXT}</h1>
+        <h1>{HOME_PAGE_TEXT}</h1>
       </div>       
       <Image
         src="/media/images/heroimg.svg"
