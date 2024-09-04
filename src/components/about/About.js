@@ -16,7 +16,7 @@ export default function About() {
           <p>{TEXT_CONSTANTS.DESCRIPTION}</p>
         </div>
       </div>
-      
+
       <div className="about-down">
         <div className="images">
           <div className="image-1">
@@ -31,9 +31,9 @@ export default function About() {
             </div>
           </div>
         </div>
-        
+
         <div className="description">
-          <p>
+          <p className="dis-txt">
             <span>Our purpose</span> {TEXT_CONSTANTS.SMALL_DESCRIPTION}
           </p>
         </div>
