@@ -1,0 +1,36 @@
+.card {
+  position: relative;
+  overflow: hidden;
+  transition: transform 0.3s ease-in-out;
+  width: 280px;
+  background-color: #f87000;
+  color: white;
+  border-radius: 8px;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+}
+
+.service-img {
+  width: 100%;
+  transition: transform 0.3s ease-in-out;
+}
+
+.card:hover .service-img {
+  transform: scale(1.1);
+}
+
+.service {
+  padding: 10px;
+}
+
+.service-name {
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.service-discription {
+  font-size: 12px;
+}

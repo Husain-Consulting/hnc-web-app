@@ -1,7 +1,7 @@
 .services-main {
   height: 100vh;
   background-color: white;
-  padding-top: 45px;
+  padding-top: 30px;
 }
 
 .services-heading {
@@ -15,9 +15,19 @@
 }
 
 .services-heading hr {
-  flex-grow: 0.9;
+  flex-grow: 0.91;
+  margin-left: 10px;
   border: none;
   height: 1px;
   background-color: #858585;
   opacity: 50%;
+}
+
+.card-container {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 60px;
+  margin-left: 110px;
 }

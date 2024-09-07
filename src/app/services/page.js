@@ -1,12 +1,10 @@
-import services from "@/styles/services.css"
+import Services from "@/components/services/Services";
+import services from "@/styles/services.css";
 
-export default function Services () {
-    return(
-        <div className="services-main">
-            <div className="services-heading">
-            <span>KNOW MORE</span>
-            <hr />
-          </div>
-        </div>
-    );
+export default function ServicesPage() {
+  return (
+    <>
+      <Services />
+    </>
+  );
 }
