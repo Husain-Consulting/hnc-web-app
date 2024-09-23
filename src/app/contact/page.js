@@ -1,11 +1,8 @@
 import Contact from "@/components/contact/Contact";
 
-const ContactPage = () => {
-    return(
-        <>
-            <Contact />
-        </>
-    )
-}
-
-export default ContactPage;
+export default function ContactPage() {
+  return (
+  <>
+  <Contact />
+  </>
+  )}

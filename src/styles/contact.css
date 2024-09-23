@@ -1,0 +1,39 @@
+.contact-container {
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  padding-top: 20px;
+}
+
+.contact-content {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 110px;
+}
+
+.heading-btn {
+  height: 40px;
+  width: 490px;
+}
+
+.contact-heading {
+  font-size: 56px;
+  color: #858585;
+}
+
+.contact-btn {
+  font-size: 24px;
+  padding: 14px;
+  border-radius: 6px;
+  border: 1px solid #858585;
+  color: #f87000;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.contact-img {
+  width: 600px;
+  height: 480px;
+  margin-right: 20px;
+  padding-bottom: 20px;
+}
