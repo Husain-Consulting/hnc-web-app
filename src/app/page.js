@@ -10,7 +10,7 @@ export default function App() {
     <div className="main">
       <Home />
       <About />
-      <Services/>
+      <Services />
       <Contact />
       <Footer />
     </div>
