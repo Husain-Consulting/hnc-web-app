@@ -40,7 +40,7 @@ const Location = ({ locations = [] }) => {
 const renderStatus = (status) => {
   if (status === Status.LOADING) return <div>Loading...</div>;
   if (status === Status.FAILURE) return <div>Error loading map</div>;
-  // return null;
+  return <div>Should Show Something</div>;
 };
 
 export default Location;
