@@ -11,8 +11,8 @@ export default function Navbar() {
           <img src="/media/logo/logo.svg" alt="logo" />
         </Link>
         <ul>
-          {NAVIGATION_ITEMS.map((item) => (
-            <li>
+          {NAVIGATION_ITEMS.map((item, key) => (
+            <li key={key}>
               <Link href={item.path}>{item.text}</Link>
             </li>
           ))}
