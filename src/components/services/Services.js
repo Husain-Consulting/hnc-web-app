@@ -10,11 +10,12 @@ export default function Services() {
         <hr />
       </div>
       <div className="card-container">
-        {SERVICE_CARD.map((serviceData) => (
+        {SERVICE_CARD.map((serviceData, key) => (
           <ServiceCard
             serviceImg={serviceData.serviceImg}
             serviceName={serviceData.serviceName}
             serviceDescription={serviceData.serviceDescription}
+            key={key}
           />
         ))}
       </div>

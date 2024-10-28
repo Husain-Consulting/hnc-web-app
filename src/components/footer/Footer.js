@@ -16,8 +16,8 @@ export default function Footer() {
         <div className="nav-social">
           <nav className="navigations">
             <ul>
-              {NAVIGATION_ITEMS.map((item) => (
-                <li>
+              {NAVIGATION_ITEMS.map((item, key) => (
+                <li key={key}>
                   <Link href={item.path}>{item.text}</Link>
                 </li>
               ))}
@@ -28,8 +28,8 @@ export default function Footer() {
             <span>{SOCIAL_TEXT}</span>
             <div className="icons">
               <ul>
-                {SOCIAL_ITEMS.map((social) => (
-                  <li>
+                {SOCIAL_ITEMS.map((social, key) => (
+                  <li key={key}>
                     <a
                       href={social.socialLink}
                       target="_blank"

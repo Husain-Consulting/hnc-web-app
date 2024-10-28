@@ -1,4 +1,4 @@
-/* "use client";
+"use client";
 
 import React, { useState, useEffect } from "react";
 import { Wrapper, Status } from "@googlemaps/react-wrapper";
@@ -28,8 +28,8 @@ const Location = ({ locations = [] }) => {
         center={center}
         zoom={11}
       >
-        {locations.map((location) => (
-          <Marker position={location} />
+        {locations.map((location, key) => (
+          <Marker position={location} key={key}/>
         ))}
       </GoogleMap>
     </Wrapper>
@@ -40,8 +40,7 @@ const Location = ({ locations = [] }) => {
 const renderStatus = (status) => {
   if (status === Status.LOADING) return <div>Loading...</div>;
   if (status === Status.FAILURE) return <div>Error loading map</div>;
-  return null;
+  return <div>Should Show Something</div>;
 };
 
 export default Location;
- */
